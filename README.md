@@ -1,4 +1,4 @@
-# Fitness-Center-CA1
+# 🏋️‍♂️Fitness-Center-CA1 🏋️‍♂️
 CA1 for Distributed Systems
 
 ## 📚 Description 
