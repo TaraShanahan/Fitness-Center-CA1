@@ -13,4 +13,8 @@ I will build it with RESTeasy ( JAX ) , Hibernate ( JPA ) and MYSQL, and i will 
 - DB: MYSQL
 - Server: Servlet container (Tomcat)
 - Testing: Postman
+
+## 🏗️ Architecture
+
+## 🔃 Relationships
   
