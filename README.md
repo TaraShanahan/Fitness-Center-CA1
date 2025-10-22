@@ -16,5 +16,7 @@ I will build it with RESTeasy ( JAX ) , Hibernate ( JPA ) and MYSQL, and i will 
 
 ## 🏗️ Architecture
 
-## 🔃 Relationships
+## 🔃 ERD
+- Membership plan (1) ----> (N) Member
+- Member (1) ----> (N) Payments
   
