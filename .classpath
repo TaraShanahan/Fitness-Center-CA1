@@ -21,5 +21,26 @@
 	<classpathentry kind="lib" path="C:/College/hibernate-release-5.4.5.Final/lib/required/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
 	<classpathentry kind="lib" path="C:/College/hibernate-release-5.4.5.Final/lib/required/stax-ex-1.8.jar"/>
 	<classpathentry kind="lib" path="C:/College/hibernate-release-5.4.5.Final/lib/required/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/commons-codec-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/httpclient-4.0.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/javassist-3.6.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/jaxb-api-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/jaxb-impl-2.1.12.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/jaxrs-api-2.0-beta-2.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/jcip-annotations-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/jcl-over-slf4j-1.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/resteasy-jaxb-provider-2.0-beta-2.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/resteasy-jaxrs-2.0-beta-2.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/resteasy-jettison-provider-2.0-beta-2.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/scannotation-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/sjsxp-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/slf4j-simple-1.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/stax-api-1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
