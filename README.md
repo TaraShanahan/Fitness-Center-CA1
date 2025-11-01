@@ -15,6 +15,9 @@ I will build it with RESTeasy ( JAX ) , Hibernate ( JPA ) and MYSQL, and i will 
 - Testing: Postman
 
 ## 🏗️ Architecture
+- membershipPlan : id (PK), description, totalCost
+- member : id (PK), membershipId, name, phone, address, fitnessGoal
+- payment : id (PK), date, amount
 
 ## 🔃 ERD
 - Membership plan (1) ----> (N) Member
