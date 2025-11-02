@@ -29,40 +29,5 @@ public class membershipPlan {
 		}
 		
 		// getters and setters 
-		public int getId()
-		{
-			return id;
-		}
-		public void setId(int id)
-		{
-			this.id = id;
-		}
-		
-		public String getDescription()
-		{
-			return description;
-		}
-		public void setDescription(String description)
-		{
-			this.description = description;
-		}
-		
-		public double getTotalCost()
-		{
-			return totalCost;
-		}
-		public void setTotalCOst(double totalCost)
-		{
-			this.totalCost = totalCost;
-		}
-		
-		public List<member> getMembers()
-		{
-			return members;
-		}
-		public void setMembers(List<member> members)
-		{
-			this.members = members;
-		}
 
 }
