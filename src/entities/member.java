@@ -19,7 +19,7 @@ public class member {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	private String membershipId;
+
 	private String name;
     private String phone;
     private String address;
@@ -34,18 +34,82 @@ public class member {
     // JPA required constructore
     public member() {
     }
-    public member(String membershipId, String name, String phone, String address, String fitnessGoal)
+    public member(String name, String phone, String address, String fitnessGoal, membershipPlan plan)
     {
-    	this.membershipId = membershipId;
+
     	this.name = name;
     	this.phone = phone;
     	this.address = address;
     	this.fitnessGoal = fitnessGoal;
+    	this.plan = plan;
+    	
     	
     }
+    // Getters and setters 
+    public int getId()
+    { return id;
     
+    }
+    public void setId(int id)
+    {
+    	this.id = id;
+    }
     
+    public String getName()
+    {
+    	return name;
+    }
+    public void setName(String name)
+    {
+    	this.name = name;
+    }
+    
+    public String getPhone()
+    {
+    	return phone;
+    }
+    public void setPhone(String phone)
+    {
+    	this.phone = phone;
+    }
+    
+    public String getAddress()
+    {
+    	return address;
+    }
+    public void setAddress(String address)
+    {
+    	this.address = address;
+    }
+    
+    public String getFitnessGoal()
+    {
+    	return fitnessGoal;
+    }
+    public void setFitnessGoal( String fitnessGoal)
+    {
+    	this.fitnessGoal = fitnessGoal;
+    }
+    
+    public membershipPlan getPlan()
+    {
+    	return plan;
+    }
+    public void setPlan(membershipPlan plan)
+    {
+    	this.plan = plan;
+    }
+    
+    public List<payment> getPayments()
+    {
+    	return payments;
+    }
+    public void setPayments(List <payment> payments)
+    {
+    	this.payments = payments;
+    }
     
 	
 
 }
+

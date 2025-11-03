@@ -36,7 +36,7 @@ public class paymentDAO {
 	public List<payment> getAllPayments(int memberId)
 	{
 		EntityManager em = emf.createEntityManager();
-		List<payment> pay = em.createQuery("SELECT p FROM payment p WHERE p.member = :mid", payment.class).setParameter("mid", memberId).getResultList();
+		List<payment> pay = em.createQuery("SELECT p FROM payment p WHERE p.member.id = :mid", payment.class).setParameter("mid", memberId).getResultList();
 		em.close();
 		return pay;
 	}

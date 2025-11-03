@@ -51,7 +51,7 @@ public class membershipPlan {
 		{
 			return totalCost;
 		}
-		public void setTotalCOst(double totalCost)
+		public void setTotalCost(double totalCost)
 		{
 			this.totalCost = totalCost;
 		}
