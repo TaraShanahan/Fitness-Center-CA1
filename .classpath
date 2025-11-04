@@ -42,5 +42,7 @@
 	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/slf4j-api-1.5.8.jar"/>
 	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/slf4j-simple-1.5.8.jar"/>
 	<classpathentry kind="lib" path="C:/College/RESTeasy Jar/stax-api-1.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
